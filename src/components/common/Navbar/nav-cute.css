@@ -1,0 +1,24 @@
+/* 移除超連結效果 */
+.nav-cute a {
+  color: inherit; /* 移除超連結顏色 */
+  display: block; /* 讓 <a> 填滿 <li> */
+  font-size: 1.2rem;
+  padding: 10px;
+  text-decoration: none;  /* 移除超連結底線 */
+}
+
+.nav-cute > ul {
+  background-color: rgb(230, 230, 230);
+  list-style: none;   /* 移除項目符號 */
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+.nav-cute a:hover {
+  background-color: rgb(115, 115, 115);
+  color: white;
+}

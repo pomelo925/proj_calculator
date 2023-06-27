@@ -1,0 +1,34 @@
+@import url("../../common/PageStyle/electron.css");
+
+/* style.css */
+.screen {
+  display: block;
+  margin: 0 auto;
+  font-family: "Comic Sans MS", cursive;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100%;
+  height: 5%;
+  max-width: 870px; 
+  min-height: 80px;
+  padding: 5px;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.screen::placeholder {
+  color: #2ed9b1; /* Set the placeholder text color to black */
+  font-family: "Comic Sans MS", cursive;
+  padding-left: 20px;
+}
+
+.screen input {
+  font-family: "Comic Sans MS", cursive;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}

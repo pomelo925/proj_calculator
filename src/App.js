@@ -1,10 +1,9 @@
-import './components/pages'
+import React from 'react'
+import Main from '../src/components/pages/Main/Main'
 
 function App() {
   return (
-    <div>
-      <h1> TESTING </h1>
-    </div>
+    <Main />
   );
 }
 
