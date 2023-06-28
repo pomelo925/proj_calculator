@@ -10,13 +10,13 @@ const Main = ()=>{
     <div>
       <nav className="nav-cute">
         <ul>
-          <Link to="/intro"> Introduction </Link>
+          <Link to="/"> Introduction </Link>
           <Link to="/calculator"> Calculator </Link>
         </ul>
       </nav>
 
       <Routes>
-        <Route path="/intro" element={<Introduction />} />
+        <Route path="/" element={<Introduction />} />
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
     </div>

@@ -15,7 +15,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .gray {
-  color:rgb(230, 226, 226);
+  color: #2ed9b1;
   background-color: rgba(61, 58, 58, 0.9);
   display: flex;
   align-items: center;
@@ -25,7 +25,6 @@
   background-color: rgba(39, 37, 37, 0.9);
   transform: translateY(-2px);
 }
-
 
 .power_area{
   display: grid;
@@ -38,6 +37,30 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+.azu{
+  background-color:#6bb6cf;
+  color: rgba(61, 58, 58, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.azu:hover{
+  background-color: #548fa3;
+  transform: translateY(-2px);
+}
+.azu0{
+  background-color:#6bb6cf;
+  color: rgba(61, 58, 58, 0.9);
+  grid-column: span 2;
+  max-width: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.azu0:hover{
+  background-color: #548fa3;
+  transform: translateY(-2px);
+}
 
 .operator_area{
   display: grid;
@@ -46,17 +69,16 @@
 }
 .AC {
   color:black;
-  background-color: rgba(238, 56, 6, 0.9);
+  background-color: rgba(217, 185, 6, 0.9);
   grid-row: span 2;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .AC:hover{
-  background-color: rgba(188, 46, 6, 0.9);
+  background-color: rgba(173, 148, 7, 0.9);
   transform: translateY(-2px);
 }
-
 
 /* CSS */
 button {
@@ -64,7 +86,7 @@ button {
   max-height:150px; 
   background-color: #0758d2;
   border-radius: 6px;
-  border: 3;
+  border: 4;
   color: #fff;
   cursor: pointer;
   display: inherit;

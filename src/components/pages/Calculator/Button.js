@@ -42,7 +42,7 @@ function Button() {
       <div className="power_area">
         <button className="gray" data-id="("> ( </button>
         <button className="gray" data-id=")"> ) </button>
-        <button className="gray" data-id="1/x"> 1/x </button>
+        <button className="gray" data-id="10^x"> 10^x </button>
         <button className="gray" data-id="√x"> √x </button>
         <button className="gray" data-id="x^y"> x^y </button>
         <button className="gray" data-id="log"> log </button>
@@ -51,18 +51,17 @@ function Button() {
       </div>
 
       <div className="number_area">
-        <button data-id="1"> 1 </button>
-        <button data-id="2"> 2 </button>
-        <button data-id="3"> 3 </button>
-        <button data-id="4"> 4 </button>
-        <button data-id="5"> 5 </button>
-        <button data-id="6"> 6 </button>
-        <button data-id="7"> 7 </button>
-        <button data-id="8"> 8 </button>
-        <button data-id="9"> 9 </button>
-        <button data-id="0"> 0 </button>
-        <button data-id="."> . </button>
-        <button data-id="±"> ± </button>
+        <button className="azu" data-id="1"> 1 </button>
+        <button className="azu" data-id="2"> 2 </button>
+        <button className="azu" data-id="3"> 3 </button>
+        <button className="azu" data-id="4"> 4 </button>
+        <button className="azu" data-id="5"> 5 </button>
+        <button className="azu" data-id="6"> 6 </button>
+        <button className="azu" data-id="7"> 7 </button>
+        <button className="azu" data-id="8"> 8 </button>
+        <button className="azu" data-id="9"> 9 </button>
+        <button className="azu0" data-id="0"> 0 </button>
+        <button className="azu" data-id="."> . </button>
       </div>
 
       <div className="operator_area">
